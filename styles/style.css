@@ -82,7 +82,35 @@ ul a{
 .advantage-styles > div {
     display: flex;
     flex-direction: column;
-        justify-content: center;
-            align-items: center;
-            align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* CSS block 3*/
+
+.block-3-style{
+    background-color: rgb(30,215,96);
+    margin: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140vh;
+
+}
+.block-3-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+    margin: 70px;
+    width: 30%;
+}
+.app-style{
+    width: 30%;
+    height: 60%;
 }
