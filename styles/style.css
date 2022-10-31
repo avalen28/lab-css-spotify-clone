@@ -11,4 +11,78 @@ White: #FFF
     box-sizing: border-box;
     margin: 0;
     font-family: 'Releway', sans-serif;
+    
+}
+.body{
+    font-size: 16px;
+}
+.header-style{
+    display:flex;
+    flex-direction: column;
+    background-color:bisque;
+    height: 120vh;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.nav-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 16vh;
+}
+.spotify-logo-nav{
+    width: 20vw;
+    height: 9vh;
+    padding-left: 70px;
+}
+.ul-style{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center; 
+    background-color: brown; 
+    height: 10vh;  
+    width: 38vw;
+    margin-top: 10px;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+ul a{
+    text-decoration: none;
+    color:black;
+}
+.header-intro{
+   background-color: blue;
+   color: white;
+    font-size: 2.5rem;
+    flex-direction: column;
+    text-align: center;
+      
+}
+/* CSS block 2*/
+
+.block-2-style{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advantage-styles{
+   	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+.advantage-styles > div {
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+            align-items: center;
+            align-content: center;
 }
