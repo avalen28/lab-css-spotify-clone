@@ -6,26 +6,20 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Releway', sans-serif;
-    
-}
-.body{
+body{
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-style{
     display:flex;
     flex-direction: column;
-    background-color:bisque;
-    height: 120vh;
+    height: 125vh;
     background-image: url(../images/landing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 .nav-style{
     display: flex;
@@ -44,7 +38,6 @@ White: #FFF
     justify-content: space-evenly;
     align-items: center;
     align-content: center; 
-    background-color: brown; 
     height: 10vh;  
     width: 38vw;
     margin-top: 10px;
@@ -56,15 +49,21 @@ ul a{
     color:black;
 }
 .header-intro{
-  
-   color: white;
-    font-size: 2.5rem;
     flex-direction: column;
     text-align: center;
     height: 100%;
     display: flex;
-    justify-content: center;
-      
+    justify-content: center;   
+}
+.header-intro h1{
+    color: #FFF;
+    font-size: 9rem;
+    padding-bottom: 50px;
+
+}
+.header-intro p{
+    color: #FFF;
+    font-size: 3rem;
 }
 /* CSS block 2*/
 
@@ -79,18 +78,13 @@ ul a{
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
-   border-bottom: 5px solid green;
-   width: 30%;
-
-   
-
-
+    border-bottom: 5px solid #00B172;
+    width: 30%;
 }
 .advantage-styles{
    	display: flex;
 	justify-content: space-evenly;
     align-items: flex-start;
-
 }
 .advantage-styles > div {
     display: flex;
@@ -102,14 +96,13 @@ ul a{
     padding-left: 140px;
     padding-right: 140px;
     text-align: center;
-   
 }
 .advantage-styles > div > img{
     height: 180px;
     
 }
 .advantage-styles div h3{
-    color: red;
+    color: #00B172;
     font-size: 3rem;
     font-weight: bold;
     padding-top: 20px;
@@ -118,33 +111,44 @@ ul a{
 .advantage-styles div p{
     color: black;
     font-weight:100;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
 }
 
 /* CSS block 3*/
 
 .block-3-style{
-    background-color: rgb(30,215,96);
+    background-color: rgb(00, 177, 114);
     margin: 70px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     background-image: url(../images/spotify-icon-white.png);
     background-size: 10%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 140vh;
-
+    height: 109vh;
 }
 .block-3-info{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
-    background-color: blue;
-    margin: 70px;
-    width: 30%;
+    height: 100%;
+    color: #FFF;
+}
+.block-3-info span{
+    font-size: 4rem;
+    border-bottom: 5px solid #FFF;
+}
+.block-3-info h4 {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bold;
+}
+.block-3-info p{
+    font-size: 2.8rem;
+    text-align: left;
 }
 .app-style{
     width: 30%;
-    height: 60%;
+    height: 80%;
 }
